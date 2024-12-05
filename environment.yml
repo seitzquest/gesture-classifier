@@ -1,0 +1,21 @@
+name: GestureClassifier
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python==3.10
+  - numpy
+  - scikit-learn=1.3.0 # fixed version to use pre-trained models
+  - uvicorn
+  - pydantic
+  - fastapi
+  - matplotlib
+  - pytorch # installed with command from website
+  - pip
+  - pip:
+    - seaborn
+    - python-multipart
+    - watchdog
+    - streamlit # requires reinstall streamlit.cli
+    - rarfile # requires unrar
