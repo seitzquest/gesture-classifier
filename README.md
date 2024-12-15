@@ -1,4 +1,4 @@
-# Gesture Classifier Comparison 🤌
+# Gesture Classifier Pipeline 🤌
 Comparison of various classification models on the uWave gesture recognition task.
 
 Paper: [uWave: Accelerometer-based personalized gesture recognition and its applications](https://ieeexplore.ieee.org/document/4912759)\
